@@ -1,4 +1,4 @@
-# phylo_project
+# Phylogenetics Project: Start of Reproducible Script and To-Do List
 Repository for botany 563 phylogenetics project
 
 # Step 1: Collect Sequences
