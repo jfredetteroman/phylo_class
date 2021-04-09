@@ -1,15 +1,1 @@
----
-title: "Botany 563 Project"
-author: "Jacob Fredette-Roman"
-date: "April 9, 2021"
-output:
-  html_document:
-    df_print: paged
----
 
-\section{Step 1: Collect Sequences}
-
-
-\subsection{BLAST Searches}
-
-Using the species list included in this repository, 
