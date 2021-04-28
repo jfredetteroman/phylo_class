@@ -1,4 +1,4 @@
-# Phylogenetics Project: Start of Reproducible Script and To-Do List
+# Botany 563 Final Project: Reproducible Script
 Repository for botany 563 phylogenetics project
 
 # Step 0: Install software
@@ -43,12 +43,6 @@ Using [ExPASy's translate tool](https://web.expasy.org/translate/), convert nucl
 
 Add each amino acid sequence to a FASTA file. To save time, the resulting FASTA file has been included in this repository.
 
-# To-Do List--Remaining Steps
+# Step 2: Multiple sequence alignment
 
-## Sequence Alignment
-
-Install TM-Coffee
-
-## Tree Estimation
-
-Install IQ-TREE
+# Step 3: Construct phylogeny
