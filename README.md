@@ -5,9 +5,29 @@ Repository for botany 563 phylogenetics project
 
 ## Alignment software: T-Coffee
 
-Using a Unix/Linux system, download the T-Coffee installer using
+Using a Unix/Linux system, download the T-Coffee installer:
 
 `wget http://tcoffee.org/Packages/Stable/Latest/ `
+
+Grant execution permission to the installer:
+
+`chmod +x T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.bin`
+
+Launch the installation wizard:
+
+`./T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.bin`
+
+After following the installation wizard and restarting the terminal, verify that the installation was successful:
+
+`t_coffee -version`
+
+## Tree construction software: IQ-TREE
+
+## Using this github repository alongside your analysis
+
+Much of the data collection and sequence translation was completed outside of the command line due to limitations of certain tools and simplicity. While this readme still describes those steps in an effort to ensure reproducibility, those who wish to follow along starting with "Step 2: Multiple sequence alignment" should use the FASTA files included in this repository. In order to access these FASTA files (and the rest of the files included in this analysis), run the following git command:
+
+`git clone https://github.com/jfredetteroman/phylo_project.git`
 
 # Step 1: Collect Sequences
 
@@ -17,7 +37,7 @@ Using the [species list](https://github.com/jfredetteroman/phylo_project/blob/ma
 
 ## Convert to Amino Acid Sequences
 
-Using ExPASy's translate tool (https://web.expasy.org/translate/), convert nucleotide sequences for each species to amino acid sequences.
+Using [ExPASy's translate tool](https://web.expasy.org/translate/), convert nucleotide sequences for each species to amino acid sequences.
 
 ## Create FASTA file
 
