@@ -1,6 +1,14 @@
 # Phylogenetics Project: Start of Reproducible Script and To-Do List
 Repository for botany 563 phylogenetics project
 
+# Step 0: Install software
+
+## Alignment software: T-Coffee
+
+Using a Unix/Linux system, download the T-Coffee installer using
+
+`wget http://tcoffee.org/Packages/Stable/Latest/ `
+
 # Step 1: Collect Sequences
 
 ## BLAST Searches
