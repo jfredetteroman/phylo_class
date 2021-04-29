@@ -23,6 +23,10 @@ After following the installation wizard and restarting the terminal, verify that
 
 ## Tree construction software: IQ-TREE
 
+Using a conda environment, run the following command:
+
+`conda install -c bioconda iqtree`
+
 ## Using this github repository alongside your analysis
 
 Much of the data collection and sequence translation was completed outside of the command line due to limitations of certain tools. While this readme still describes those steps in an effort to ensure reproducibility, those who wish to follow along starting with "Step 2: Multiple sequence alignment" should use the FASTA files included in this repository. In order to access these FASTA files (and the rest of the files included in this analysis), run the following git command:
