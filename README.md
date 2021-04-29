@@ -1,5 +1,5 @@
 # Botany 563 Final Project: Reproducible Script
-Repository for botany 563 phylogenetics project
+This README can be used to follow along with the steps used to construct a phylogenetic tree of Sodium/Potassium ATP-ase across several different arthropod species. 
 
 # Step 0: Install software
 
