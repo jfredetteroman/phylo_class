@@ -55,7 +55,7 @@ To create the multiple sequence alignment that will be used to construct a phylo
 
 Because the sequences were largely collected from un-annotated data, there is a significant possibility that there are pseudogenes in the dataset. Remove sequences that are too distantly related from the rest of the set with the following T-COFFEE command:
 
-`command`
+`t_coffee -other_pg sequence_reformat -in All_Species_Amino_Acid.aln`
 
 A threshold of ___ was chosen because sequences from the outgroup *C. elegans* showed identity scores around ___.
 
