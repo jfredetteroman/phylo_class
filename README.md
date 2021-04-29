@@ -33,13 +33,13 @@ Much of the data collection and sequence translation was completed outside of th
 
 `git clone https://github.com/jfredetteroman/phylo_project.git`
 
-# Step 1: Collect Sequences
+# Step 1: Collect sequences
 
-## BLAST Searches
+## BLAST searches
 
 Using the [species list](https://github.com/jfredetteroman/phylo_project/blob/main/SpeciesList.md) included in this repository and the genome database specified in the list, run a BLAST search on all species against the [*E. affinis* sequence](https://github.com/jfredetteroman/phylo_project/blob/main/FASTAs/Eurytemora_affinis_BLAST_reference.fa) included in this repository. For each BLAST result with an E-value smaller than 0.01, add the resulting sequence to a FASTA file corresponding to that species. The results from this step can be found in the [FASTAs](https://github.com/jfredetteroman/phylo_project/tree/main/FASTAs) directory.
 
-## Convert to Amino Acid Sequences
+## Convert to amino acid sequences
 
 Using [ExPASy's translate tool](https://web.expasy.org/translate/), input nucleotide sequences retrieved in BLAST searches, selecting "compact" output format and both forward and reverse DNA strands. The [resulting output](https://www.dropbox.com/s/qp16x93l1y2w0ig/ExPASy_Result.png?dl=0) includes each reading frame in both the 5'-3' and 3'-5' directions, with open reading frames highlighted in red. For each sequence, select the largest open reading frame and add it to a new FASTA file. While this step is susceptible to subjectivity, each translation should have an open reading frame that is clearly larger than the others. The [resulting FASTA file](https://github.com/jfredetteroman/phylo_project/blob/main/FASTAs/All_Species_Amino_Acid.fa) should contain an amino acid sequence corresponding to each nucleotide sequence retrieved from BLAST searches. Each sequence represents a different paralog of sodium/potassium ATP-ase belonging to the specified species.
 
