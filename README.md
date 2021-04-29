@@ -37,7 +37,7 @@ Much of the data collection and sequence translation was completed outside of th
 
 ## BLAST searches
 
-Using the [species list](https://github.com/jfredetteroman/phylo_project/blob/main/SpeciesList.md) included in this repository and the genome database specified in the list, run a BLAST search on all species against the [*E. affinis* sequence](https://github.com/jfredetteroman/phylo_project/blob/main/FASTAs/Eurytemora_affinis_BLAST_reference.fa) included in this repository. For each BLAST result with an E-value smaller than 0.01, add the resulting sequence to a FASTA file corresponding to that species. The results from this step can be found in the [FASTAs](https://github.com/jfredetteroman/phylo_project/tree/main/FASTAs) directory.
+Using the [species list](https://github.com/jfredetteroman/phylo_project/blob/main/SpeciesList.md) included in this repository and the genome database specified in the list, run a BLAST search on all species against the [*E. affinis* sequence](https://github.com/jfredetteroman/phylo_project/blob/main/FASTAs/Eurytemora_affinis_BLAST_reference.fa) included in this repository. For each BLAST result with an E-value smaller than 1e-5, add the resulting sequence to a FASTA file corresponding to that species. The results from this step can be found in the [FASTAs](https://github.com/jfredetteroman/phylo_project/tree/main/FASTAs) directory.
 
 ## Convert to amino acid sequences
 
