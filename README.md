@@ -61,6 +61,6 @@ Because the sequences were largely collected from un-annotated data, there is a 
 
 `t_coffee -other_pg sequence_reformat -in All_Species_Amino_Acid.aln -action +trim _aln_%%100_O45 > All_Species_Amino_Acid_trimmed.aln`
 
-A threshold of 45% identity was chosen according to the recommended threshold in the T-COFEE documentation. Moreover, sequences from the outgroup *C. elegans* did not get removed with a threshold of 45% identity. We now have our trimmed alignment file and are ready to construct a tree. The [untrimmed alignment file](https://github.com/jfredetteroman/phylo_project/blob/main/Alignment_Files/All_Species_Amino_Acid.aln) and the [trimmed alignment file](https://github.com/jfredetteroman/phylo_project/blob/main/Alignment_Files/All_Species_Amino_Acid_trimmed.aln) can be found in this repository
+A threshold of 45% identity was chosen according to the recommended threshold in the T-COFEE documentation. Moreover, sequences from the outgroup *C. elegans* did not get removed with a threshold of 45% identity. We now have our trimmed alignment file and are ready to construct a tree. The [untrimmed alignment file](https://github.com/jfredetteroman/phylo_project/blob/main/Alignment_Files/All_Species_Amino_Acid.aln) and the [trimmed alignment file](https://github.com/jfredetteroman/phylo_project/blob/main/Alignment_Files/All_Species_Amino_Acid_trimmed.aln) can be found in this repository.
 
 # Step 3: Construct phylogeny
