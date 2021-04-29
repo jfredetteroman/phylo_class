@@ -41,7 +41,7 @@ Using [ExPASy's translate tool](https://web.expasy.org/translate/), input nucleo
 
 It is possible to run ExPASy's translate tool from the command line, but the output is a FASTA file that contains all 6 reading frames and does not specify the locations of open reading frames. While this made the web interface more suitable for our goal, an example of the translate tool being used on the command line is shown below:
 
-`curl -s -d "DNA_sequence=GAGAAACAATGT...&output_format=fasta" https://web.expasy.org/cgi-bin/translate/dna2aa.cgi`
+`curl -s -d "DNA_sequence=GAGAAACAATGT...&output_format=fasta" https://web.expasy.org/cgi-bin/translate/dna2aa.cgi > translation_output.fasta`
 
 # Step 2: Multiple sequence alignment
 
