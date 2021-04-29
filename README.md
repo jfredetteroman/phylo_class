@@ -64,3 +64,11 @@ Because the sequences were largely collected from un-annotated data, there is a 
 A threshold of 45% identity was chosen according to the recommended threshold in the T-COFEE documentation. Moreover, sequences from the outgroup *C. elegans* did not get removed with a threshold of 45% identity. We now have our trimmed alignment file and are ready to construct a tree. The [untrimmed alignment file](https://github.com/jfredetteroman/phylo_project/blob/main/Alignment_Files/All_Species_Amino_Acid.aln) and the [trimmed alignment file](https://github.com/jfredetteroman/phylo_project/blob/main/Alignment_Files/All_Species_Amino_Acid_trimmed.aln) can be found in this repository.
 
 # Step 3: Construct phylogeny
+
+To construct a tree with IQ-TREE, run the following command on the trimmed alignment file produced by T-COFFEE:
+
+`iqtree -s All_Species_Amino_Acid_trimmed.aln -st AA -o CelA1 -m MFP -b 100`
+
+The command above tells IQ-TREE to construct a phylogeny with certain parameters. `-s All_Species_Amino_Acid_trimmed.aln` specifies the alignment file to use. `-st AA` specifies that the sequences in the alignment are in amino acid format. `-o CelA1` specifies the outgroup. `-m MFP` specifies that IQ-TREE should use ModelFinder Plus to identify the best substitution model that minimizes BIC score. `-b 100` specifies that IQ-TREE should use the tool UFBoot with 100 bootstrap approximations.
+
+The resulting [treefile]() produced by IQ-TREE can be viewed and analyzed using [FigTree](http://tree.bio.ed.ac.uk/software/figtree/)
