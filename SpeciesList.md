@@ -23,3 +23,4 @@
 | Stegodyphus mimosarum      | Ensembl       |
 | Strigamia maritima         | Ensembl       |
 | Apis dorsata               | NCBI          |
+| Caenorhabditis elegans     | Wormbase      |
