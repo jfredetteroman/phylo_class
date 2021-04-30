@@ -71,4 +71,4 @@ To construct a tree with IQ-TREE, run the following command on the trimmed align
 
 The command above tells IQ-TREE to construct a phylogeny with certain parameters. `-s All_Species_Amino_Acid_trimmed.aln` specifies the alignment file to use. `-st AA` specifies that the sequences in the alignment are in amino acid format. `-o CelA1` specifies the outgroup. `-m MFP` specifies that IQ-TREE should use ModelFinder Plus to identify the best substitution model that minimizes BIC score. `-b 1000` specifies that IQ-TREE should use the tool UFBoot with 1000 bootstrap approximations.
 
-The resulting [treefile]() produced by IQ-TREE can be viewed and analyzed using [FigTree](http://tree.bio.ed.ac.uk/software/figtree/)
+The resulting [treefile](https://github.com/jfredetteroman/phylo_project/blob/main/IQ-TREE_Files/All_Species_Amino_Acid.iqtree) produced by IQ-TREE can be viewed and analyzed using [iTOL](https://itol.embl.de/)
